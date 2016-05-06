@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="container">
+    <h2>Классификация обучающей выборки</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Матч</th>
+                @if (User.IsInRole("Admin"))
+                {
+                    <th>Ничья</th>
+                    <th>Победа первой команды</th>
+                    <th>Победа второй команды</th>
+                }
+                @if (User.IsInRole("Admin") || User.IsInRole("Priveleged User"))
+                {
+                    <th>Реальные коэффициенты</th>
+                }
+                <th>Коэффициенты</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in ViewBag.Matches)
+            {
+                <tr>
+                    <td><p>@m.firstTeam.name - @m.secondTeam.name</p></td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <td><p>@((ViewBag.Predictions[ViewBag.i][0] * 100).ToString("0.00")) %</p></td>
+                        <td><p>@((ViewBag.Predictions[ViewBag.i][1] * 100).ToString("0.00")) %</p></td>
+                        <td><p>@((ViewBag.Predictions[ViewBag.i][2] * 100).ToString("0.00")) %</p></td>
+                    }
+                    @if (User.IsInRole("Admin") || User.IsInRole("Priveleged User"))
+                    {
+                        <td>
+                            <p>
+                                @((ViewBag.RealCoefficients[ViewBag.i][1]).ToString("0.00")) :
+                                @((ViewBag.RealCoefficients[ViewBag.i][0]).ToString("0.00")) :
+                                @((ViewBag.RealCoefficients[ViewBag.i][2]).ToString("0.00"))
+                            </p>
+                        </td>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <td>
+                            <p>
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=1&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][1])">
+                                    @((ViewBag.AdjustedCoefficients[ViewBag.i][1]).ToString("0.00"))
+                                </a> :
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=0&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][0])">
+                                    @((ViewBag.AdjustedCoefficients[ViewBag.i][0]).ToString("0.00"))
+                                </a> :
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=2&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][2])">
+                                    @((ViewBag.AdjustedCoefficients[ViewBag.i][2]).ToString("0.00"))
+                                </a>
+                            </p>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <p>
+                                @((ViewBag.AdjustedCoefficients[ViewBag.i][1]).ToString("0.00")) :
+                                @((ViewBag.AdjustedCoefficients[ViewBag.i][0]).ToString("0.00")) :
+                                @((ViewBag.AdjustedCoefficients[ViewBag.i][2]).ToString("0.00"))
+                            </p>
+                        </td>
+                    }
+                </tr>
+                ViewBag.i++;
+            }
+        </tbody>
+    </table>
+</div>

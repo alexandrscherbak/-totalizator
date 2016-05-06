@@ -158,7 +158,12 @@ namespace TotalizatorMVC.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await this.UserManager.AddToRoleAsync(user.Id, model.Role);
+                    string role;
+                    if (model.SecretCode == "xX-123")
+                        role = "Priveleged User";
+                    else
+                        role = "User";
+                    await this.UserManager.AddToRoleAsync(user.Id, role);
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
                     // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771

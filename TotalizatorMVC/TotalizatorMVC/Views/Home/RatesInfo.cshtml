@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Корзина ставок";
+}
+
+<div class="container">
+    <h2>@ViewBag.Title</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Матч</th>
+                <th>Ставка</th>
+                <th>Сумма</th>
+                <th>Выигрыш</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in ViewBag.Rates)
+            {
+                <tr>
+                    <td><p>@ViewBag.Matches[ViewBag.i].firstTeam.name - @ViewBag.Matches[ViewBag.i].secondTeam.name</p></td>
+                    <td><p>@ViewBag.ResultsEncoder[r.Result]</p></td>
+                    <td><p>@r.Amount</p></td>
+                    <td>
+                        @if (ViewBag.Matches[ViewBag.i].realResult == r.Result)
+                        {
+                            <p>@(r.Amount*double.Parse(r.Coefficient))</p>
+                        }
+                        else if (ViewBag.Matches[ViewBag.i].realResult == 3)
+                        {
+                            <p>Событие ожидается</p>
+                        }
+                        else
+                        {
+                            <p>Ставка не сыграла</p>
+                        }
+                    </td>
+                </tr>
+                ViewBag.i++;
+            }
+        </tbody>
+    </table>
+</div>

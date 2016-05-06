@@ -1,0 +1,31 @@
+﻿@model IEnumerable<TotalizatorMVC.Models.Match>
+@{
+    ViewBag.Title = "Редактирование матчей";
+}
+<p>
+    @Html.ActionLink("Добавить", "CreateMatch", "Home", new { }, new { @class = "viewDialog", data_dialog_title = "Создание модели" })
+</p>
+<table class="table">
+    <tr>
+        <th>Матч</th>
+        <th>Результат Игры</th>
+        <th>Действие</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstTeam.Name) - @Html.DisplayFor(modelItem => item.SecondTeam.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Result)
+            </td>
+            <td>
+                @Html.ActionLink("Изменить", "EditMatch", "Home", new { id = item.Id },
+            new { @class = "viewDialog", data_dialog_title = "Редактирование матча" })
+            </td>
+        </tr>
+    }
+
+</table>
