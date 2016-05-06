@@ -1,0 +1,246 @@
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\ApplicationInsights.config
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\csc.exe
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\vbc.exe
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll.config
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Owin.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\WebGrease.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.dll
+c:\users\alexander\documents\visual studio 2015\Projects\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.pdb
+F:\TotalizatorMVC\TotalizatorMVC\bin\ApplicationInsights.config
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\csc.exe
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Collections.Immutable.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Reflection.Metadata.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\vbc.exe
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe
+F:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe.config
+F:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll.config
+F:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.pdb
+F:\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Agent.Intercept.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Web.Infrastructure.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Owin.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\WebGrease.dll
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.pdb
+F:\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.xml
+F:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.csprojResolveAssemblyReference.cache
+F:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.dll
+F:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.pdb
+D:\TotalizatorMVC\TotalizatorMVC\bin\ApplicationInsights.config
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\csc.exe
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\vbc.exe
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe
+D:\TotalizatorMVC\TotalizatorMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll.config
+D:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\TotalizatorMVC.pdb
+D:\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Owin.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\WebGrease.dll
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.Web.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.ApplicationInsights.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Helpers.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Mvc.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Optimization.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.Razor.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Deployment.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\System.Web.WebPages.Razor.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Antlr3.Runtime.pdb
+D:\TotalizatorMVC\TotalizatorMVC\bin\Newtonsoft.Json.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\EntityFramework.SqlServer.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TotalizatorMVC\TotalizatorMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.csprojResolveAssemblyReference.cache
+D:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.dll
+D:\TotalizatorMVC\TotalizatorMVC\obj\Debug\TotalizatorMVC.pdb

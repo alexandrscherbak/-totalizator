@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="container">
+    <h2>Классификация обучающей выборки</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Первая Комманда</th>
+                <th>Вторая комманда</th>
+                <th>Результат Игры</th>
+                <th>Ничья</th>
+                <th>Победа первой команды</th>
+                <th>Победа второй команды</th>
+                <th>Реальные коэффициенты</th>
+                <th>Скорректированные коэффициенты</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in ViewBag.Matches)
+            {
+                <tr>
+                    <td><p>@m.firstTeam.name</p></td>
+                    <td><p>@m.secondTeam.name</p></td>
+                    <td><p>@ViewBag.ResultsEncoder[m.realResult]</p></td>
+                    <td><p>@((ViewBag.Predictions[ViewBag.i][0]*100).ToString("0.00")) %</p></td>
+                    <td><p>@((ViewBag.Predictions[ViewBag.i][1]*100).ToString("0.00")) %</p></td>
+                    <td><p>@((ViewBag.Predictions[ViewBag.i][2]*100).ToString("0.00")) %</p></td>
+                    <td>
+                        <p>
+                            @((ViewBag.RealCoefficients[ViewBag.i][1]).ToString("0.00")) : 
+                            @((ViewBag.RealCoefficients[ViewBag.i][0]).ToString("0.00")) : 
+                            @((ViewBag.RealCoefficients[ViewBag.i][2]).ToString("0.00"))
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            @((ViewBag.AdjustedCoefficients[ViewBag.i][1]).ToString("0.00")) :
+                            @((ViewBag.AdjustedCoefficients[ViewBag.i][0]).ToString("0.00")) :
+                            @((ViewBag.AdjustedCoefficients[ViewBag.i][2]).ToString("0.00"))
+                        </p>
+                    </td>
+                </tr>
+                ViewBag.i++;
+            }
+        </tbody>
+    </table>
+</div>
