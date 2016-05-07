@@ -19,6 +19,9 @@ namespace TotalizatorMVC.Controllers
         NeuralNetworkContext neuralNetworkDb = new NeuralNetworkContext();
         RatesContext ratesDb = new RatesContext();
         List<MatchInfo> matchesInfo = new List<MatchInfo>();
+        static bool addFirstTeam;
+        static int? _firstTeamId;
+        static int? _secondTeamId;
 
         public ActionResult Index()
         {
@@ -38,31 +41,23 @@ namespace TotalizatorMVC.Controllers
         }
 
         // CreateMatch
-        public ActionResult CreateMatch()
+        public ActionResult CreateMatch(bool? useTeamIds)
         {
-            List<Team> teams = db.Teams.ToList();
-            bool isFirst = true;
-            List<int> listOfFirstTeamIds = new List<int>();
-            List<int> listOfSecondTeamIds = new List<int>();
-            foreach (Team team in teams)
+            Match match = new Match();
+            if (useTeamIds == null)
             {
-                if (isFirst)
-                    listOfFirstTeamIds.Add(team.Id);
-                else
-                    listOfSecondTeamIds.Add(team.Id);
-                isFirst = !isFirst;
+                _firstTeamId = null;
+                _secondTeamId = null;
             }
-            SelectList _listOfFirstTeamIds = new SelectList(listOfFirstTeamIds);
-            SelectList _listOfSecondTeamIds = new SelectList(listOfSecondTeamIds);
-            ViewBag.ListOfFirstTeamIds = _listOfFirstTeamIds;
-            ViewBag.ListOfSecondTeamIds = _listOfSecondTeamIds;
-            ViewBag.FirstTeamsId = listOfFirstTeamIds[0];
-            ViewBag.SecondTeamsId = listOfSecondTeamIds[0];
-            return PartialView("CreateMatch");
+            match.FirstTeamId = _firstTeamId;
+            match.SecondTeamId = _secondTeamId;
+            return View("CreateMatch", match);
         }
         [HttpPost]
         public ActionResult CreateMatch(Match match)
         {
+            match.FirstTeamId = _firstTeamId;
+            match.SecondTeamId = _secondTeamId;
             db.Matches.Add(match);
             db.SaveChanges();
             return RedirectToAction("EditMatches");
@@ -92,6 +87,30 @@ namespace TotalizatorMVC.Controllers
             ViewBag.Matches = getMatchesInfo().Where(m => m.realResult != 3).ToList();
 
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult CreateTeam(bool isFirstTeam)
+        {
+            addFirstTeam = isFirstTeam;
+            return PartialView("CreateTeam");
+        }
+        [HttpPost]
+        public ActionResult CreateTeam(Team team)
+        {
+            team.FuzzyInfo = FuzzyPredictor.analizeTeamInfo((new TeamInfo(team)).getListOfParameters());
+            db.Teams.Add(team);
+            db.SaveChanges();
+            if (addFirstTeam)
+            {
+                _firstTeamId = team.Id;
+                return RedirectToAction("CreateMatch", new { useTeamIds = true });
+            }
+            else
+            {
+                _secondTeamId = team.Id;
+                return RedirectToAction("CreateMatch", new { useTeamIds = true });
+            }
         }
 
         [HttpGet]
@@ -153,13 +172,13 @@ namespace TotalizatorMVC.Controllers
                     match.SecondTeam = secondTeamFromDb;
                     TeamInfo firstTeam = new TeamInfo(match.FirstTeam);
                     TeamInfo secondTeam = new TeamInfo(match.SecondTeam);
-                    if (firstTeam.fuzzyInfo == "-")
+                    if (firstTeam.fuzzyInfo[0] == '-')
                     {
                         firstTeam.fuzzyInfo = FuzzyPredictor.analizeTeamInfo(firstTeam.getListOfParameters());
                         firstTeamFromDb.FuzzyInfo = firstTeam.fuzzyInfo;
                         teamsToUpdate.Add(firstTeamFromDb);
                     }
-                    if (secondTeam.fuzzyInfo == "-")
+                    if (secondTeam.fuzzyInfo[0] == '-')
                     {
                         secondTeam.fuzzyInfo = FuzzyPredictor.analizeTeamInfo(secondTeam.getListOfParameters());
                         secondTeamFromDb.FuzzyInfo = secondTeam.fuzzyInfo;
@@ -226,6 +245,19 @@ namespace TotalizatorMVC.Controllers
             ViewBag.ResultsEncoder = ResultsEncoder.results;
 
             return View();
+        }
+
+        public ActionResult TeachNN()
+        {
+            NeuralNetworkPredictor nn = new NeuralNetworkPredictor(getMatchesInfo(),
+                new List<OutputLayerWeights>(),
+                new List<TeachedRBF>(),
+                true);
+            List<OutputLayerWeights> outputLayerWeightsForSaving = new List<OutputLayerWeights>();
+            List<TeachedRBF> teachedRBFsForSaving = new List<TeachedRBF>();
+            NeuralNetworkPredictor.prepareDataForSaving(outputLayerWeightsForSaving, teachedRBFsForSaving);
+            saveNeuralNetwokToDataBase(outputLayerWeightsForSaving, teachedRBFsForSaving);
+            return PartialView("TeachNN");
         }
 
         private void saveNeuralNetwokToDataBase(List<OutputLayerWeights> outputLayerWeights, List<TeachedRBF> teachedRBFs)

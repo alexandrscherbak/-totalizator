@@ -23,6 +23,19 @@ textarea {
     max-width: 280px;
 }
 
-/*.ui-dialog {
-    width: 370px !important;
-}*/
+.ui-dialog {
+    width: 500px !important;
+}
+.ui-dialog.ui-widget {
+    top: 100px !important;
+}
+
+.total-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: none;
+}
+
+.item {
+    text-align: center;
+}

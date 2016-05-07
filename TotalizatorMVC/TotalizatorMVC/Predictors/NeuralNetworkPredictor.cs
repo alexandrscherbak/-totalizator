@@ -11,14 +11,14 @@ namespace TotalizatorMVC.Predictors
     {
         private static RadialBasisFunctionNetwork rbfNetwork;
         private static bool _isNetworkChanged;
-        public NeuralNetworkPredictor(List<MatchInfo> matchesInfo, List<OutputLayerWeights> outputLayerWeights, List<TeachedRBF> teachedRBFs)
+        public NeuralNetworkPredictor(List<MatchInfo> matchesInfo, List<OutputLayerWeights> outputLayerWeights, List<TeachedRBF> teachedRBFs, bool isTeachNeaded)
         {
             _isNetworkChanged = false;
-            initializeNeuralNetwork(matchesInfo, outputLayerWeights, teachedRBFs);
+            initializeNeuralNetwork(matchesInfo, outputLayerWeights, teachedRBFs, isTeachNeaded);
         }
-        private void initializeNeuralNetwork(List<MatchInfo> matchesInfo, List<OutputLayerWeights> outputLayerWeights, List<TeachedRBF> teachedRBFs)
+        private void initializeNeuralNetwork(List<MatchInfo> matchesInfo, List<OutputLayerWeights> outputLayerWeights, List<TeachedRBF> teachedRBFs, bool isTeachNeaded)
         {
-            if (outputLayerWeights.Count > 0 && outputLayerWeights.Count == teachedRBFs.Count)
+            if (outputLayerWeights.Count > 0 && outputLayerWeights.Count == teachedRBFs.Count && isTeachNeaded != true)
             {
                 rbfNetwork = new RadialBasisFunctionNetwork(matchesInfo[0].firstTeam.getListOfParameters().Count * 2,
                     3, teachedRBFs.Count, teachedRBFs, outputLayerWeights,
@@ -32,6 +32,8 @@ namespace TotalizatorMVC.Predictors
                 List<double[]> looseMatches = new List<double[]>();
                 foreach (MatchInfo matchInfo in matchesInfo)
                 {
+                    if (matchInfo.realResult == 3)
+                        continue;
                     double[] matchParams = matchInfo.getMatchParams();
                     if (matchInfo.realResult == 0)
                         zeroMatches.Add(matchParams);

@@ -2,8 +2,9 @@
 @{
     ViewBag.Title = "Редактирование матчей";
 }
+<h2>@ViewBag.Title</h2>
 <p>
-    @Html.ActionLink("Добавить", "CreateMatch", "Home", new { }, new { @class = "viewDialog", data_dialog_title = "Создание модели" })
+    @Html.ActionLink("Добавить", "CreateMatch", "Home", new { })
 </p>
 <table class="table">
     <tr>

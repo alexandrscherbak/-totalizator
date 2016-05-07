@@ -16,7 +16,7 @@ namespace TotalizatorMVC.Predictors
         {
             qualimetricPredictor = new QualimetricPredictor();
             fuzzyPredictor = new FuzzyPredictor(matchesInfo);
-            neuralNetworkPredictor = new NeuralNetworkPredictor(matchesInfo, outputLayerWeights, teachedRBFs);
+            neuralNetworkPredictor = new NeuralNetworkPredictor(matchesInfo, outputLayerWeights, teachedRBFs, false);
         }
         public double[] predict(MatchInfo matchInfo)
         {
@@ -29,8 +29,8 @@ namespace TotalizatorMVC.Predictors
                 finalPrediction[i] = neuralNetworkPrediction[i];
                 finalPrediction[i] += fuzzyPrediction[i] / 3;
                 finalPrediction[i] += qualimetricPrediction[i] * 0.3;
-                //if (finalPrediction[i] < 0.15)
-                //    finalPrediction[i] = 0.15;
+                if (finalPrediction[i] < 0.15)
+                    finalPrediction[i] = 0.15 + i / 100;
             }
             double sum = finalPrediction.Sum();
             for (int i = 0; i < 3; i++)

@@ -23,7 +23,7 @@
                     <td>
                         @if (ViewBag.Matches[ViewBag.i].realResult == r.Result)
                         {
-                            <p>@(r.Amount*double.Parse(r.Coefficient))</p>
+                            <p>@((double)r.Amount*double.Parse(r.Coefficient))</p>
                         }
                         else if (ViewBag.Matches[ViewBag.i].realResult == 3)
                         {
