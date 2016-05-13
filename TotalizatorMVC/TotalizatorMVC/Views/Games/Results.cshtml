@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Прошедшие игры";
+}
+
+<div class="container">
+    <h2>Прошедшие игры</h2>
+    @if (ViewBag.Matches.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Матч</th>
+                    <th>Результат Игры</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var m in ViewBag.Matches)
+                {
+                    <tr>
+                        <td><p>@m.firstTeam.name - @m.secondTeam.name</p></td>
+                        <td><p>@ViewBag.ResultsEncoder[m.realResult]</p></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div>Ошибка! В системе не содержится информации о матчах либо потеряно соединение с сервером!</div>
+    }
+</div>

@@ -4,7 +4,7 @@
 }
 <h2>@ViewBag.Title</h2>
 <p>
-    @Html.ActionLink("Добавить", "CreateMatch", "Home", new { })
+    @Html.ActionLink("Добавить", "CreateMatch", "Games", new { })
 </p>
 <table class="table">
     <tr>
@@ -23,7 +23,7 @@
                 @Html.DisplayFor(modelItem => item.Result)
             </td>
             <td>
-                @Html.ActionLink("Изменить", "EditMatch", "Home", new { id = item.Id },
+                @Html.ActionLink("Изменить", "EditMatch", "Games", new { id = item.Id },
             new { @class = "viewDialog", data_dialog_title = "Редактирование матча" })
             </td>
         </tr>

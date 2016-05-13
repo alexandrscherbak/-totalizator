@@ -46,13 +46,13 @@
                     {
                         <td>
                             <p>
-                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=1&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][1])">
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Rates/MakeRate?matchId=@m.id&result=1&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][1])">
                                     @((ViewBag.AdjustedCoefficients[ViewBag.i][1]).ToString("0.00"))
                                 </a> :
-                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=0&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][0])">
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Rates/MakeRate?matchId=@m.id&result=0&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][0])">
                                     @((ViewBag.AdjustedCoefficients[ViewBag.i][0]).ToString("0.00"))
                                 </a> :
-                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Home/MakeRate?matchId=@m.id&result=2&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][2])">
+                                <a class="viewDialog" data_dialog_title = "Сумма ставки" href="/Rates/MakeRate?matchId=@m.id&result=2&coefficient=@(ViewBag.AdjustedCoefficients[ViewBag.i][2])">
                                     @((ViewBag.AdjustedCoefficients[ViewBag.i][2]).ToString("0.00"))
                                 </a>
                             </p>

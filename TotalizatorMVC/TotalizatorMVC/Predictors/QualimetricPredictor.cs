@@ -12,7 +12,7 @@ namespace TotalizatorMVC.Predictors
         {
             double[] teamPowers = TeamPowerCalculator.calculateTeamPowers(matchInfo.firstTeam.getListOfParameters(), matchInfo.secondTeam.getListOfParameters());
             double[] prediction = new double[] {
-                0,
+                teamPowers.Min() / teamPowers.Max(),
                 teamPowers[0],
                 teamPowers[1]
             };

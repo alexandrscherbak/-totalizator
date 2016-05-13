@@ -21,13 +21,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Прошедшие игры", "Results", "Home")</li>
-                    <li>@Html.ActionLink("События", "FutureEvents", "Home")</li>
+                    <li>@Html.ActionLink("Прошедшие игры", "Results", "Games")</li>
+                    <li>@Html.ActionLink("События", "FutureEvents", "Prediction")</li>
                     @if (User.IsInRole("Admin"))
                     {
                         <li>@Html.ActionLink("Управление ролями", "Index", "Role")</li>
-                        <li>@Html.ActionLink("Редактирование матчей", "EditMatches", "Home")</li>
-                        <li>@Html.ActionLink("Обучить нейронную сеть", "TeachNN", "Home", new { },
+                        <li>@Html.ActionLink("Редактирование матчей", "EditMatches", "Games")</li>
+                        <li>@Html.ActionLink("Обучить нейронную сеть", "TeachNN", "Prediction", new { },
             new { @class = "viewDialog", data_dialog_title = "Обучение нейронной сети" })</li>
                     }
                 </ul>

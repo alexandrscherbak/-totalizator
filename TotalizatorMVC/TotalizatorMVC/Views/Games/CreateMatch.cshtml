@@ -19,7 +19,7 @@
             @if (Model.FirstTeamId == null)
             {
                 <div class="col-md-3 closeViewDialog">
-                    @Html.ActionLink("Добавить команду", "CreateTeam", "Home", new { isFirstTeam = true },
+                    @Html.ActionLink("Добавить команду", "CreateTeam", "Games", new { isFirstTeam = true },
             new { @class = "viewDialog", data_dialog_title = "Добавление команды" })
                 </div>
             }
@@ -36,7 +36,7 @@
             @if (Model.SecondTeamId == null)
             {
                 <div class="col-md-3">
-                    @Html.ActionLink("Добавить команду", "CreateTeam", "Home", new { isFirstTeam = false },
+                    @Html.ActionLink("Добавить команду", "CreateTeam", "Games", new { isFirstTeam = false },
             new { @class = "viewDialog closeViewDialog", data_dialog_title = "Добавление команды" })
                 </div>
             }

@@ -201,8 +201,11 @@
     <Compile Include="BusinesModels\ResultsEncoder.cs" />
     <Compile Include="BusinesModels\TeamInfo.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GamesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PredictionController.cs" />
+    <Compile Include="Controllers\RatesController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -292,6 +295,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="ClassDiagram2.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\common.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -318,7 +323,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\FutureEvents.cshtml" />
+    <Content Include="Views\Prediction\FutureEvents.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
@@ -342,14 +347,14 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Role\Index.cshtml" />
     <Content Include="Views\Role\Create.cshtml" />
-    <Content Include="Views\Home\Results.cshtml" />
-    <Content Include="Views\Home\EditMatches.cshtml" />
-    <Content Include="Views\Home\CreateMatch.cshtml" />
-    <Content Include="Views\Home\EditMatch.cshtml" />
-    <Content Include="Views\Home\MakeRate.cshtml" />
-    <Content Include="Views\Home\RatesInfo.cshtml" />
-    <Content Include="Views\Home\CreateTeam.cshtml" />
-    <Content Include="Views\Home\TeachNN.cshtml" />
+    <Content Include="Views\Games\Results.cshtml" />
+    <Content Include="Views\Games\EditMatches.cshtml" />
+    <Content Include="Views\Games\CreateMatch.cshtml" />
+    <Content Include="Views\Games\EditMatch.cshtml" />
+    <Content Include="Views\Rates\MakeRate.cshtml" />
+    <Content Include="Views\Rates\RatesInfo.cshtml" />
+    <Content Include="Views\Games\CreateTeam.cshtml" />
+    <Content Include="Views\Prediction\TeachNN.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

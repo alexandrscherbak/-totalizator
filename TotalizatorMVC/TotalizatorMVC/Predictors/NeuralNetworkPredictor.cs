@@ -302,9 +302,7 @@ namespace TotalizatorMVC.Predictors
             {
                 double sum = 0;
                 for (int i = 0; i < inputCount; i++)
-
                     sum += (match[i] - rbf_teached[j].expectations[i]) * (match[i] - rbf_teached[j].expectations[i]);
-
                 rbfNeurons[j] = Math.Exp(-sum / Math.Pow(rbf_teached[j].standardDeviation, 2));
             }
 
@@ -368,20 +366,6 @@ namespace TotalizatorMVC.Predictors
             lock (_sync)
             {
                 return Rnd.Next();
-            }
-        }
-        public static int Next(int max)
-        {
-            lock (_sync)
-            {
-                return Rnd.Next(max);
-            }
-        }
-        public static int Next(int min, int max)
-        {
-            lock (_sync)
-            {
-                return Rnd.Next(min, max);
             }
         }
     }
